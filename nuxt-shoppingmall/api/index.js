@@ -6,7 +6,6 @@ const instance = axios.create({
 })
 
 function fetchProducts() {
-  console.log('11111111111111111111111111111111111');
   return instance.get(`/products`)
 }
 
