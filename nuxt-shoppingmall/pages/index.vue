@@ -4,7 +4,7 @@
       <SearchInput
         v-model="inputText"
         @search="filterItemsBySearchText"
-      ></SearchInput>
+      />
       <ul>
         <li
           v-for="item in items"
