@@ -43,5 +43,10 @@ export default {
 
   server : {
     port : 8000
-  }
+  },
+
+  // env
+  env: {
+    baseURL: 'http://localhost:3000',
+  },
 }
